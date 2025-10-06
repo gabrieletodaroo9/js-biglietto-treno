@@ -13,9 +13,14 @@
 
 // 1. Creo le variabili riguardanti il numero di chilometri da percorrere e l'età del passeggero
 
+const myKilometers = Number(prompt("Quanti km farai?"))
+const myAge = Number(prompt("Quanti anni hai?"))
 
+console.log(myKilometers,myAge)
 
 // 2. Creo una costante che sarà il prezzo al km del biglietto
+
+
 
 // 3.Creo una variabile chiamata "myTicketPrice"in cui moltiplico il valore del prezzo del biglietto al km per il numero di km da percorrere
 
