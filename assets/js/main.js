@@ -22,10 +22,16 @@ console.log(myKilometers,myAge)
 
 const priceForKm = 0.21 
 
+console.log(priceForKm)
+
 // 3.Creo una variabile chiamata "myTicketPrice"in cui moltiplico il valore del prezzo del biglietto al km per il numero di km da percorrere
+
+let myTicketPrice = priceForKm * myKilometers 
 
 // 4. SE la persona che deve prendere il biglietto ha meno di 18 anni divido il valore per 100 e lo moltiplico per 80(sconto 20%)
 // ALTRIMENTI SE la persona che deve prendere il biglietto ha più di 65 anni  divido il valore per 100 e lo moltiplico per 60(sconto 40%)
 // //  ALTRIMENTI stampo il valore di "myTicketPrice"
+
+console.log(myTicketPrice);
 
 // Aggiorno il risultato finale in maniera da avere solo due numeri dopo la virgola
