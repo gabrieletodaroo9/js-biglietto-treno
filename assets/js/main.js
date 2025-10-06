@@ -39,7 +39,7 @@ if (myAge < 18) {
     myTicketPrice = myTicketPrice
 }
 
-// Aggiorno il risultato finale in maniera da avere solo due numeri dopo la virgola e faccio lo faccio apparire nell'alert
+// Aggiorno il risultato finale in maniera da avere solo due numeri dopo la virgola e lo faccio apparire nell'alert
 
 const myRealTicketPrice = myTicketPrice.toFixed(2)
 console.log(myRealTicketPrice);
