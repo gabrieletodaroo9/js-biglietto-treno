@@ -8,6 +8,15 @@
 // L'output del prezzo finale va messo fuori in forma umana (con massimo due decimali, per indicare centesimi sul prezzo). Questo richiederà un minimo di ricerca.
 
 
+
+
+
 // 1. Creo le variabili riguardanti il numero di chilometri da percorrere e l'età del passeggero
 
-// 2. Controllo se la persona che deve prendere il biglietto ha meno di 18 o più di 65 anni
+// 2. Creo una costante che sarà il prezzo al km del biglietto
+
+// 3.Creo una variabile chiamata "myTicketPrice"in cui moltiplico il valore del prezzo del biglietto al km per il numero di km da percorrere
+
+// 4. SE la persona che deve prendere il biglietto ha meno di 18 anni divido il valore per 100 e lo moltiplico per 80(sconto 20%)
+// ALTRIMENTI SE la persona che deve prendere il biglietto ha più di 65 anni  divido il valore per 100 e lo moltiplico per 60(sconto 40%)
+// //  ALTRIMENTI stampo il valore di "myTicketPrice"
