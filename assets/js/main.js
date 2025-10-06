@@ -20,7 +20,7 @@ console.log(myKilometers,myAge)
 
 // 2. Creo una costante che sarà il prezzo al km del biglietto
 
-
+const priceForKm = 0.21 
 
 // 3.Creo una variabile chiamata "myTicketPrice"in cui moltiplico il valore del prezzo del biglietto al km per il numero di km da percorrere
 
