@@ -35,8 +35,6 @@ if (age < 18) {
  ticketPrice = ticketPrice / 100 * 80
 } else if (age >= 65) {
     ticketPrice = ticketPrice / 100 * 60
-} else {
-    ticketPrice = ticketPrice
 }
 
 // Aggiorno il risultato finale in maniera da avere solo due numeri dopo la virgola e lo faccio apparire nell'alert
